@@ -293,8 +293,8 @@
  </tr>
  <tr>
   <td>初期化（インスタンス化）</td>
-  <td>var 変数名 = クラス名()</td>
-  <td>var JohnDoe = new Adult();</td>
+  <td>class クラス名1{アクセス修飾子 クラス名1{処理}}</td>
+  <td>class Person<br>{<br>&nbsppublic Person(string n, int a)<br>&nbsp{<br>&nbsp&nbspname = n;<br>&nbsp&nbspage = a;<br>&nbsp}<br>}<br><br>Person personInstance = new Person("Alice", 30);</td>
  </tr>
  <tr>
   <td rowspan="5">コードブロック</td>
@@ -334,4 +334,3 @@
   <td>using System.Text;</td>
  </tr>
 </table>
-
