@@ -330,8 +330,7 @@
  </tr>
  <tr>
   <td>名前空間（パッケージ）の参照追加</td>
-  <td>ファイル先頭で、<br>require '名前空間'</td>
-  <td>require 'nokogiri'</td>
+  <td>require '名前空間'<br>#以下ライブラリ利用<br>変数名 = ライブラリ名::クラス名</td>
+  <td>require 'nokogiri'<br>doc = Nokogiri::HTML('&lt;html&gt;&lt;body&gt;Hello World!&lt;/body&gt;&lt;/html&gt;')<br>puts doc.at('body').text (出力:Hello World!)</td>
  </tr>
 </table>
-
