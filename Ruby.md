@@ -256,8 +256,8 @@
  <tr>
   <td rowspan="3">例外処理</td>
   <td>try catch</td>
-  <td>try{処理}catch(exception){処理}</td>
-  <td>try<br>{<br>&nbsp処理<br>}<br>catch(Exception)<br>{<br>&nbspConsole.WriteLine("Error");<br>}</td>
+  <td>begin<br>&nbsp処理<br>rescue [例外の型]<br>&nbsp例外処理<br>end</td>
+  <td>begin<br>&nbspresult = 10 / 0<br>rescue ZeroDivisionError<br>&nbspputs "Error: Division by zero"<br>end</td>
  </tr>
  <tr>
   <td>finally</td>
